@@ -1,0 +1,40 @@
+.topnav {
+    background-color: darkgray;
+    overflow: hidden;
+    font-family: CenturyGothic
+}
+.topnav a {
+    float: inherit;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    line-height: 50px;
+    text-decoration: none;
+     font-size: 17px;
+ }
+.topnav a:hover{
+    color: green;
+}
+
+#heading {
+    color: darkblue;
+    text-align: center;
+    border-top-style: hidden;
+    border-right-style: solid;
+    border-bottom-style: hidden;
+    border-left-style: solid;
+    border-radius: 12px;
+    border-width: 3px;
+    border-color: black;
+}
+#divider {
+    color: blue
+}
+#images {
+    border-spacing:0;
+}
+body{
+ background-image:url("img/white.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
